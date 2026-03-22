@@ -8,7 +8,7 @@ SAI configurations for the microphone:
 
 Wiring for Display (https://www.waveshare.com/wiki/2inch_LCD_Module?amazon#Software_description):  
 | LCD          | STM32 |
-|----------------------|
+|--------------|-------|
 |VCC           |  3.3V |
 |GND           |  GND  |
 |DIN           |  MOSI |
