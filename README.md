@@ -6,7 +6,7 @@ SAI configurations for the microphone:
 <img width="678" height="838" alt="image" src="https://github.com/user-attachments/assets/eece8e8b-7e60-459b-9e43-32f25c48bade" />
 <img width="834" height="655" alt="image" src="https://github.com/user-attachments/assets/be871769-196a-484f-9566-797af8f12464" />
 
-Wiring for Display (https://www.waveshare.com/wiki/2inch_LCD_Module?amazon#Software_description):  
+Wiring for the ST7789 Display (https://www.waveshare.com/wiki/2inch_LCD_Module?amazon#Software_description):  
 | LCD          | STM32                |
 |--------------|----------------------|
 |VCC            |  3.3V               |
