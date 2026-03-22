@@ -209,7 +209,7 @@ void drawSpectrum()
     }
 
     spectrumMaxHeight = maxHeight; 								// Used by clearStuckPixels function to align with max height
-    spectrumTopY = DISPLAY_HEIGHT - 1 - yOffset - maxHeight;									// Used by clearStuckPixels function to align with yOffset
+    spectrumTopY = DISPLAY_HEIGHT - 1 - yOffset - maxHeight;	// Used by clearStuckPixels function to align with yOffset
 
     // Find the peak bin (skip DC bin)
     static uint32_t lastPeakUpdateTime = 0;
