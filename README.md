@@ -1,4 +1,4 @@
-Project done on a Nucleo-F767ZI board
+Project done on a Nucleo-F767ZI board  
 SPI configurations for the display:
 <img width="667" height="686" alt="image" src="https://github.com/user-attachments/assets/00ed83f6-fc52-4e82-8382-10e1845d2f3b" />
 
