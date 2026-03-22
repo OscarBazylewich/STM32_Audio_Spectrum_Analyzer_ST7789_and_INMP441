@@ -8,7 +8,8 @@ SAI configurations for the microphone:
 
 Wiring for Display (https://www.waveshare.com/wiki/2inch_LCD_Module?amazon#Software_description):  
 | LCD | STM32 |
-
+|-----|-------|
+|1 | 2 |
 Wiring for INMP441 microphone (https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf):  
 <img width="684" height="415" alt="image" src="https://github.com/user-attachments/assets/c859a881-3491-48c1-b72b-4c060cc43361" />
 
