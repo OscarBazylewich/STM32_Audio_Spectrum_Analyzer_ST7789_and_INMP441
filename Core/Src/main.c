@@ -198,7 +198,7 @@ void computeMagnitude(float *fftOut, float *mag)
 void drawSpectrum()
 {
 	//-------------Configurations--------------
-    const int16_t speedOfFade = 44;		// How 'fast' the data goes down (i.e. How many pixels the display will turn black for every loop)
+    const int16_t speedOfFade = 44;		// How 'fast' the data goes down (i.e. How many pixels each line of the display will turn black for every loop)
     int16_t maxHeight         = 240;	// Maximum height (pixels) the FFT can be drawn onto the display
     const int xOffset         = 0;		// How far from the left (how many pixels starting from the left) the display will start showing data
     const int yOffset         = 9;		// How far from the bottom (how many pixels starting from the bottom) the display will start showing data
