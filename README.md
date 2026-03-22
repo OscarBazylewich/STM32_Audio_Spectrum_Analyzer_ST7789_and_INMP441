@@ -30,6 +30,7 @@ Wiring for INMP441 microphone (https://invensense.tdk.com/wp-content/uploads/201
 | SCK        | SCK      |
 -------------------------  
 Additionally, add a 100K Resistor for the L/R channels. Without it, microphone tends to switch audio channels when transmitting data  
+----  
 Optional UART configuration to see Raw microphone/FFT data through a terminal (see more in main.c):  
 <img width="855" height="755" alt="image" src="https://github.com/user-attachments/assets/088c5aa5-25ff-4cca-9b45-1eb595828729" />
 
