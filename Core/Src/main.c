@@ -290,7 +290,6 @@ void clearStuckPixels()
         lastClearTime = now;
     }
 }
-// Draw frequency labels once at startup
 
 /* USER CODE END 0 */
 
