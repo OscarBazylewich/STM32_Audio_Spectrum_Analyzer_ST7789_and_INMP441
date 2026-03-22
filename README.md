@@ -21,6 +21,7 @@ Wiring for Display (https://www.waveshare.com/wiki/2inch_LCD_Module?amazon#Softw
 Wiring for INMP441 microphone (https://invensense.tdk.com/wp-content/uploads/2015/02/INMP441.pdf):  
 <img width="684" height="415" alt="image" src="https://github.com/user-attachments/assets/c859a881-3491-48c1-b72b-4c060cc43361" />
 
+
 Optional UART configuration to see Raw microphone/FFT data through a terminal (see more in main.c):  
 <img width="855" height="755" alt="image" src="https://github.com/user-attachments/assets/088c5aa5-25ff-4cca-9b45-1eb595828729" />
 
