@@ -47,7 +47,7 @@
 #define SAMPLING_FREQUENCY 48000
 
 #define DISPLAY_WIDTH 320	// Important!: Assuming at ST7789_rotation(2); (landscape)
-#define DISPLAY_HEIGHT 240	// If at 1/3, it will be portrait (I think)
+#define DISPLAY_HEIGHT 240	// If rotation is at 1 or 3, it will be portrait (I think)
 
 #define STUCK_PIXEL_CLEAR_MS 60000 // Clears top of display after 60 seconds. Some pixels get stuck
 /* USER CODE END PD */
