@@ -279,7 +279,7 @@ void drawSpectrum()
     }
 }
 
-// @brief: Fills the FFT area with a color (black) after 60 seconds to combat pixels getting stuck
+// @brief: Fills the top third of the FFT area with a color (black) after 60 seconds to combat pixels getting 'stuck' (staying white)
 void clearStuckPixels()
 {
     uint32_t now = HAL_GetTick();
