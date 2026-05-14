@@ -1,4 +1,10 @@
 Project done on a Nucleo-F767ZI board  
+
+<img width="757" height="432" alt="image" src="https://github.com/user-attachments/assets/44e8847f-f67c-4248-bfec-4db49edc574f" />
+
+Video showcasing the project
+https://github.com/user-attachments/assets/57763690-d332-40a8-a951-e2d1e84b5693
+
 SPI configurations for the display:  
 <img width="667" height="686" alt="image" src="https://github.com/user-attachments/assets/00ed83f6-fc52-4e82-8382-10e1845d2f3b" />  
 
