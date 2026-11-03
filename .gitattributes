@@ -1,0 +1,3 @@
+# Treat ST HAL, CMSIS and third-party display drivers as vendored code so
+# GitHub language stats and diffs focus on the application code in Core/.
+Drivers/** linguist-vendored
