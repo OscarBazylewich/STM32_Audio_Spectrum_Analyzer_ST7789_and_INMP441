@@ -9,13 +9,12 @@ This project is a real-time audio spectrum analyzer on a Nucleo-F767ZI board. It
 <p align="center">
   <img src="https://github.com/user-attachments/assets/44e8847f-f67c-4248-bfec-4db49edc574f" width="700" alt="The ST7789 display (Waveshare 2inch LCD Module) with white spectrum bars, the text '0-24KHz' and the text 'Peak Frequency: 375.0'">
 </p>
-<p align="center"><em>The analyzer shows the spectrum on the Waveshare 2inch LCD Module.</em></p>
 
 This video shows the project:
 
 https://github.com/user-attachments/assets/57763690-d332-40a8-a951-e2d1e84b5693
 
-The project uses a Nucleo-F767ZI board. The STM32F767ZI reads audio from an INMP441 MEMS microphone through I2S. It calculates an FFT of the audio and shows the spectrum as bars on the ST7789 display (Waveshare 2inch LCD Module). This STM32CubeIDE project uses the STM32F7 HAL and CMSIS-DSP.
+The STM32F767ZI reads audio from an INMP441 MEMS microphone through I2S. It calculates an FFT of the audio and shows the spectrum as bars on the ST7789 display (Waveshare 2inch LCD Module). This STM32CubeIDE project uses the STM32F7 HAL and CMSIS-DSP.
 
 ## Features
 
@@ -83,7 +82,6 @@ The figure and the table that follow show the connections for the INMP441 microp
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c859a881-3491-48c1-b72b-4c060cc43361" width="600" alt="The system block diagram from the INMP441 datasheet. Two microphones connect to the same SCK, WS and SD lines. One microphone has its L/R pin connected to GND. The other microphone has its L/R pin connected to VDD">
 </p>
-<p align="center"><em>Stereo configuration from the INMP441 datasheet (Figure 7).</em></p>
 
 | INMP441 pin | Nucleo pin | Function |
 |-------------|------------|----------|
@@ -105,8 +103,6 @@ If you use two microphones (stereo), do these steps:
 3. Connect the GND pin of the second INMP441 to GND.
 4. Connect the second INMP441 to the same SCK, WS and SD lines.
 5. Connect the L/R pin of the second INMP441 to 3.3 V.
-
-Figure 7 of the INMP441 datasheet shows this configuration.
 
 ## How the analyzer operates
 
@@ -132,13 +128,11 @@ More information:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/00ed83f6-fc52-4e82-8382-10e1845d2f3b" width="450" alt="SPI1 settings in STM32CubeMX: transmit-only master, 8-bit, MSB first, prescaler 4 for 12.0 Mbit/s, CPOL high, CPHA 2 edge">
 </p>
-<p align="center"><em>SPI1 settings for the display.</em></p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/eece8e8b-7e60-459b-9e43-32f25c48bade" width="450" alt="SAI1 Block A settings in STM32CubeMX: master receive, I2S standard, 24-bit data, 2 slots, specified frequency 48 kHz, 'Real Audio Frequency' 46.875 kHz">
   <img src="https://github.com/user-attachments/assets/be871769-196a-484f-9566-797af8f12464" width="500" alt="DMA settings for SAI1_A in STM32CubeMX: peripheral to memory, circular mode, word data width, FIFO disabled">
 </p>
-<p align="center"><em>SAI1 Block A settings for the microphone, and the DMA settings for SAI1 Block A.</em></p>
 
 ## How to start
 
@@ -203,7 +197,6 @@ The debug blocks use blocking `HAL_UART_Transmit()` calls. Thus, the firmware up
 <p align="center">
   <img src="https://github.com/user-attachments/assets/088c5aa5-25ff-4cca-9b45-1eb595828729" width="500" alt="USART3 settings in STM32CubeMX: asynchronous, 115200 bit/s, 8 bits, no parity, 1 stop bit, receive and transmit">
 </p>
-<p align="center"><em>USART3 settings for the debug output.</em></p>
 
 ## Repository structure
 
